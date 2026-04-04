@@ -238,18 +238,31 @@ figcaption {
   justify-content: center;
   gap: 20px;
 }
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;        
+  justify-content: center;
+  gap: 20px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>
 
 <div class="container">
-  <div>
+  <figure>
     <video src="joaosax.mp4" controls width="250"></video>
     <figcaption><h4 style="color: aliceblue;">JOÃO SAX</h4></figcaption>
-  </div>
+  </figure>
 
-   <div>  
+  <figure>  
     <video src="melhorcasal8.mp4" controls width="250"></video>
     <figcaption><h4 style="color: aliceblue;">MELHOR CASAL</h4></figcaption>
-  </div>
+  </figure>
 </div>
 
 <hr>
@@ -257,12 +270,20 @@ figcaption {
 <h1 style="color: #38c1f4; text-align: center;">N9NO ANO</h1>
 
 <div class="container">
-  <video src="luan farmando aura.mp4" controls width="250"></video>
-    <figcaption><h4 style="color: aliceblue;"> LUAN FARMANDO AURA </h4></figcaption>    
-  <video src="gincana9.mp4" controls width="250"></video> 
-      <figcaption><h4 style="color: aliceblue;"> ENTRANDO EM QUADRA </h4></figcaption>     
-  <video src="apresentação92.mp4" controls> </video>
-        <figcaption><h4 style="color: aliceblue;"> DUBLAGEM </h4></figcaption>
+  <figure>
+    <video src="luan farmando aura.mp4" controls width="250"></video>
+    <figcaption><h4 style="color: aliceblue;">LUAN FARMANDO AURA</h4></figcaption>    
+  </figure>
+
+  <figure>
+    <video src="gincana9.mp4" controls width="250"></video> 
+    <figcaption><h4 style="color: aliceblue;">ENTRANDO EM QUADRA</h4></figcaption>     
+  </figure>
+
+  <figure>
+    <video src="apresentação92.mp4" controls width="250"></video>
+    <figcaption><h4 style="color: aliceblue;">DUBLAGEM</h4></figcaption>
+  </figure>
 </div>
 <br><br><br><br>
 <img src="gincana9 fotos.jpeg" style="display: block; margin: 0 auto;" height="540" width="644">
